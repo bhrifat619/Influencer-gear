@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500;600&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+/* styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ======================= */
+.header {
+    margin: 0 8rem;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-items {
+    display: flex;
+    gap: 22px;
+}
+
+.navigation .logo {
+    color: #3A3A3A;
+}
+
+.nav-items .text {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav-items .text a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.nav-icons .nav-icon img {
+    width: 17px;
+}
+
+/* ================ */
+.head-items {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 4.2rem;
+    align-items: center;
+    gap: 89px;
+}
+
+.head-items .head-text h1 {
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.head-items .head-image img {
+    width: 440px;
+    height: 414px;
+}
+
+
+.head-items .btn button {
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.head-text .fa-arrow-right{
+    margin-left: .5rem;
+    transition: all .5s ease;
+}
+.head-text .btn button:hover .fa-arrow-right{
+    margin-left: 1rem;
+}
+.source{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+/* ========================= */
